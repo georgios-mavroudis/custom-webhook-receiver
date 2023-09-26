@@ -5,15 +5,14 @@ const connectDB = require('./mongo');
 
 app.use('/', router);
 
-const hostname = '127.0.0.1';
-const port = 8000;
+const port = process.env.PORT
 
-app.listen(port, hostname, (error) => {
+app.listen(port, (error) => {
     connectDB()
     if (error) {
         console.log('Error: server cannot start', error)
     } else {
-        console.log(`Server running at http://${hostname}:${port}/`);
+        console.log(`Server running at PORT: ${port}/`);
     }
 });
 module.exports = app;
