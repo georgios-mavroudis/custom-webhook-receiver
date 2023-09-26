@@ -1,0 +1,19 @@
+{
+  "name": "custom-callback-url",
+  "version": "1.0.0",
+  "description": "A simple project for receiving notifications from webhooks and parsing their result",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georgios-mavroudis/custom-webhook-receiver.git"
+  },
+  "author": "georgios-mavroudis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/georgios-mavroudis/custom-webhook-receiver/issues"
+  },
+  "homepage": "https://github.com/georgios-mavroudis/custom-webhook-receiver#readme"
+}
